@@ -1,0 +1,41 @@
+.sectionmediosdepago {
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+        padding-top: 4vh;
+        font-size: large;
+        font-weight: bold;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        margin-top: 22vh;
+
+        div {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+
+            ul {
+                transform: translateX(2vw);
+            }
+
+        }
+
+    }
+}
+
+.formasdepago {
+    list-style: none;
+    text-decoration: underline;
+    font-size: large;
+}

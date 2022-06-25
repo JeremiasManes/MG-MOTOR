@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.grilla {
+  display: grid;
+  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
+
+/* CLASES HEADER */
+.header {
+  grid-area: header; }
+
+.logo {
+  animation: 3s rotate linear infinite; }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.navbar {
+  background-image: url(../img/banner.jpg); }
+
+a.nav-link {
+  color: white; }
+
+button.btn {
+  color: white;
+  border-color: white; }
+  button.btn:hover {
+    color: black;
+    background-color: white;
+    border-color: black; }
+
+input.form-control {
+  width: 50%;
+  transition: 2s; }
+  input.form-control:focus {
+    width: 100%; }
+
+/* CLASES MAIN */
+.main {
+  grid-area: main; }
+
+/* CLASES FOOTER */
+.footer {
+  grid-area: footer; }
+
+.sectionfooter {
+  background-image: url(../img/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+  padding: 0.2rem; }
+  .sectionfooter ul {
+    margin-bottom: 0;
+    font-size: small; }
+    .sectionfooter ul li span {
+      text-decoration: underline; }
+  .sectionfooter div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    transform: translateX(-8vw);
+    padding-top: 1vh; }
+  .sectionfooter ol {
+    margin-bottom: 0; }
+    .sectionfooter ol li {
+      list-style: none;
+      text-decoration: underline;
+      font-size: small; }
+
+.sectionmediosdepago h1 {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 4vh;
+  font-size: large;
+  font-weight: bold; }
+
+.sectionmediosdepago section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  margin-top: 22vh; }
+  .sectionmediosdepago section div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center; }
+    .sectionmediosdepago section div ul {
+      transform: translateX(2vw); }
+
+.formasdepago {
+  list-style: none;
+  text-decoration: underline;
+  font-size: large; }
+
+/* CLASES CONTACTO */
+.sectioncontacto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to right, red, white, black);
+  height: 73vh; }
+  .sectioncontacto div form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 1vh;
+    row-gap: 0.5vh; }
+    .sectioncontacto div form h1 {
+      font-size: large;
+      font-family: 'Times New Roman', Times, serif; }
+
+.buttonform {
+  font-size: 0.8rem;
+  height: 25px;
+  width: 50px;
+  transition: height 0.2s, width 0.2s; }
+  .buttonform:hover {
+    height: 30px;
+    width: 55px;
+    background-color: #aa1515;
+    color: white;
+    border-color: black; }
+
+.infocontacto {
+  display: flex;
+  width: 17%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  row-gap: 5vh; }
+  .infocontacto p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem; }
+  .infocontacto img {
+    transform: skew(3deg, 2deg); }
