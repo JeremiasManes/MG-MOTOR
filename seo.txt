@@ -24,3 +24,6 @@
 	-medios de pago: "En MG Motor vas a contar con muchas posibilidades de pago, tanto en efectivo, tarjetas o a travez de Mercadopago."
 	-productos: "En MG Motor vas a encontrar mucha variedad de repuestos para tu vehiculo, de alta calidad y garantia por 24 meses sin ningun costo extra."
 	-sucursales: "MG Motor dispone de 3 sucursales, una en la provincia de cordoba, capital. Los otros 2, en Capital Federal y en la ciudad de Mar del Plata."
+
+- CAMBIO 4:
+  - Se agrego carpeta pages en proyecto, conteniendo todos los html excepto el index.
