@@ -25,9 +25,11 @@
 a.nav-link {
   color: white; }
   a.nav-link:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
     color: red;
-    font-weight: bold; }
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 4px; }
 
 button.btn {
   color: white;
