@@ -24,6 +24,10 @@
 
 a.nav-link {
   color: white; }
+  a.nav-link:hover {
+    transform: scale(1.15);
+    color: red;
+    font-weight: bold; }
 
 button.btn {
   color: white;

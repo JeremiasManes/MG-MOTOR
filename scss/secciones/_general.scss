@@ -32,7 +32,13 @@
 
 a.nav-link {
     color: white;
+    &:hover{
+        transform: scale(1.15);
+        color: red;
+        font-weight: bold;
+    }
 }
+
 
 button.btn {
     color: white;
