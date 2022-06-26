@@ -99,7 +99,8 @@ input.form-control {
         font-size: small;
 
         li span {
-            text-decoration: underline;
+            font-size: 1rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
     }
 
@@ -121,9 +122,8 @@ input.form-control {
         li {
             list-style: none;
             text-decoration: underline;
+            text-underline-offset: 2px;
             font-size: small;
         }
     }
-
-
 }

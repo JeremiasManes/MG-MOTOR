@@ -75,7 +75,8 @@ input.form-control {
     margin-bottom: 0;
     font-size: small; }
     .sectionfooter ul li span {
-      text-decoration: underline; }
+      font-size: 1rem;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
   .sectionfooter div {
     display: flex;
     flex-direction: row;
@@ -91,6 +92,7 @@ input.form-control {
     .sectionfooter ol li {
       list-style: none;
       text-decoration: underline;
+      text-underline-offset: 2px;
       font-size: small; }
 
 .sectionmediosdepago h1 {
