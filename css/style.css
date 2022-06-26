@@ -98,6 +98,7 @@ input.form-control {
 .sectionmediosdepago h1 {
   text-align: center;
   text-decoration: underline;
+  text-underline-offset: 2px;
   padding-top: 4vh;
   font-size: large;
   font-weight: bold; }
@@ -124,7 +125,9 @@ input.form-control {
 .formasdepago {
   list-style: none;
   text-decoration: underline;
-  font-size: large; }
+  text-underline-offset: 2px;
+  font-size: large;
+  font-weight: bold; }
 
 /* CLASES CONTACTO */
 .sectioncontacto {
