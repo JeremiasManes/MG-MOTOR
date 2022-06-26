@@ -31,14 +31,15 @@
     font-size: 0.8rem;
     height: 25px;
     width: 50px;
+    border-radius: 10px;
     transition: height 0.2s, width 0.2s;
 
     &:hover {
-        height: 30px;
-        width: 55px;
-        background-color: rgb(170, 21, 21);
+        height: 28px;
+        width: 53px;
+        background-color: black;
         color: white;
-        border-color: black;
+        border-color: red;
     }
 }
 

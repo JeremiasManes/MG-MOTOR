@@ -32,24 +32,23 @@
 
 a.nav-link {
     color: white;
-    &:hover{
+
+    &:hover {
         transform: scale(1.15);
         color: red;
         font-weight: bold;
     }
 }
 
-
 button.btn {
     color: white;
     border-color: white;
 
     &:hover {
-        color: black;
-        background-color: white;
-        border-color: black;
+        color: white;
+        background-color: black;
+        border-color: red;
     }
-
 }
 
 input.form-control {
