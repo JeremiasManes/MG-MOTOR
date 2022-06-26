@@ -146,13 +146,26 @@ input.form-control {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
     .sectioncontacto div form h1 {
       font-size: large;
-      font-family: 'Times New Roman', Times, serif; }
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 2px;
+      text-decoration-color: red; }
+    .sectioncontacto div form input {
+      border-radius: 5px;
+      border-color: red; }
+    .sectioncontacto div form textarea {
+      border-radius: 5px;
+      border-width: 2px;
+      border-color: red; }
 
 .buttonform {
   font-size: 0.8rem;
   height: 25px;
   width: 50px;
   border-radius: 5px;
+  border-color: red;
   transition: height 0.2s, width 0.2s;
   font-family: Arial, Helvetica, sans-serif; }
   .buttonform:hover {

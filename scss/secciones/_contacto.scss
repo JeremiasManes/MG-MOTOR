@@ -24,6 +24,20 @@
         h1 {
             font-size: large;
             font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
+            text-decoration-color: red;
+        }
+        input{
+            border-radius: 5px;
+            border-color: red;
+        }
+        textarea{
+            border-radius: 5px;
+            border-width: 2px;
+            border-color: red;
         }
     }
 }
@@ -33,6 +47,7 @@
     height: 25px;
     width: 50px;
     border-radius: 5px;
+    border-color: red;
     transition: height 0.2s, width 0.2s;
     font-family: Arial, Helvetica, sans-serif;
 
