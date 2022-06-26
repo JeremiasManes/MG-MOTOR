@@ -23,13 +23,16 @@
   background-image: url(../img/banner.jpg); }
 
 a.nav-link {
-  color: white; }
+  color: white;
+  font-family: sans-serif;
+  font-size: 1rem;
+  transition: font-size 0.2s; }
   a.nav-link:hover {
-    transform: scale(1.1);
+    font-size: 1.1rem;
     color: red;
     font-weight: bold;
     text-decoration: underline;
-    text-underline-offset: 4px; }
+    text-underline-offset: 5px; }
 
 button.btn {
   color: white;
@@ -139,7 +142,8 @@ input.form-control {
     align-items: center;
     position: relative;
     margin-top: 1vh;
-    row-gap: 0.5vh; }
+    row-gap: 0.5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
     .sectioncontacto div form h1 {
       font-size: large;
       font-family: 'Times New Roman', Times, serif; }
@@ -149,7 +153,8 @@ input.form-control {
   height: 25px;
   width: 50px;
   border-radius: 10px;
-  transition: height 0.2s, width 0.2s; }
+  transition: height 0.2s, width 0.2s;
+  font-family: Arial, Helvetica, sans-serif; }
   .buttonform:hover {
     height: 28px;
     width: 53px;
