@@ -136,9 +136,10 @@ input.form-control {
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-evenly;
-  background-image: linear-gradient(to right, red, white, black);
+  background-color: black;
   height: 73vh; }
   .sectioncontacto div form {
+    color: white;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -159,11 +160,20 @@ input.form-control {
       text-decoration-color: red; }
     .sectioncontacto div form input {
       border-radius: 5px;
+      border-width: 2px;
       border-color: red; }
+      .sectioncontacto div form input:focus:not(input[type="checkbox"]) {
+        outline-style: solid;
+        outline-color: red;
+        outline-width: 2px; }
     .sectioncontacto div form textarea {
       border-radius: 5px;
       border-width: 2px;
       border-color: red; }
+      .sectioncontacto div form textarea:focus {
+        outline-style: solid;
+        outline-color: red;
+        outline-width: 2px; }
 
 .buttonform {
   font-size: 0.8rem;
@@ -176,9 +186,8 @@ input.form-control {
   .buttonform:hover {
     height: 28px;
     width: 53px;
-    background-color: black;
-    color: white;
-    border-color: red; }
+    background-color: red;
+    color: white; }
 
 .infocontacto {
   display: flex;
@@ -189,6 +198,7 @@ input.form-control {
   justify-content: center;
   row-gap: 4vh; }
   .infocontacto p {
+    color: white;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.1rem; }
