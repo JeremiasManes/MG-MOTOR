@@ -6,6 +6,7 @@
         padding-top: 4vh;
         font-size: large;
         font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     section {
@@ -16,7 +17,7 @@
         justify-content: space-around;
         align-items: center;
         position: relative;
-        margin-top: 22vh;
+        margin-top: 15vh;
 
         div {
             display: flex;
@@ -25,13 +26,8 @@
             align-content: center;
             justify-content: center;
             align-items: center;
-
-            ul {
-                transform: translateX(2vw);
-            }
-
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
-
     }
 }
 

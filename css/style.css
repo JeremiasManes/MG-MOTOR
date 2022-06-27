@@ -101,7 +101,8 @@ input.form-control {
   text-underline-offset: 2px;
   padding-top: 4vh;
   font-size: large;
-  font-weight: bold; }
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 .sectionmediosdepago section {
   display: flex;
@@ -111,16 +112,15 @@ input.form-control {
   justify-content: space-around;
   align-items: center;
   position: relative;
-  margin-top: 22vh; }
+  margin-top: 15vh; }
   .sectionmediosdepago section div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    align-items: center; }
-    .sectionmediosdepago section div ul {
-      transform: translateX(2vw); }
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
 .formasdepago {
   list-style: none;
