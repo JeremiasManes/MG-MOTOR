@@ -5,7 +5,7 @@
 	-contacto: Nombre de marca | Contacto
 	-medios de pago: Nombre de marca | Medios de pago
 	-productos: Nombre de marca | Productos
-	-sucursales: Nombre de marca | Sucursales
+	-servicios: Nombre de marca | Servicios
 
 - CAMBIO 2:
   - Se agregaron keywords en cada uno de los html:
@@ -14,7 +14,7 @@
 	-contacto: "contacto, redes sociales, telefono, whatsapp"
 	-medios de pago: "forma de pago, tarjeta, mercado pago, efectivo"
 	-productos: "repuestos, levas, baterias, espirales, amortiguadores"
-	-sucursales: "sucursales, mar del plata, buenos aires, cordoba"
+	-servicios: "servicios, venta, instalacion, garantia"
 
 - CAMBIO 3:
   - Se agrego etiqueta meta con description en todos los html:
@@ -23,7 +23,7 @@
 	-contacto: "En MG Motor podras consultarnos todas tus dudas sin ningun compromiso, tanto por redes sociales o directamente por la pagina web."
 	-medios de pago: "En MG Motor vas a contar con muchas posibilidades de pago, tanto en efectivo, tarjetas o a travez de Mercadopago."
 	-productos: "En MG Motor vas a encontrar mucha variedad de repuestos para tu vehiculo, de alta calidad y garantia por 24 meses sin ningun costo extra."
-	-sucursales: "MG Motor dispone de 3 sucursales, una en la provincia de cordoba, capital. Los otros 2, en Capital Federal y en la ciudad de Mar del Plata."
+	-servicios: "MG Motor dispone de 3 servicios principales, venta de repuestos, instalacion de los mismos y un servicio postventa de excelente calidad"
 
 - CAMBIO 4:
   - Se agrego carpeta pages en proyecto, conteniendo todos los html excepto el index.
