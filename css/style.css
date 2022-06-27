@@ -126,6 +126,9 @@ input.form-control {
     border-radius: 40px;
     transition: all 0.25s;
     text-align: center;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
     box-shadow: 6px 6px 40px grey; }
     .sectionmediosdepago section div:hover {
       transform: translateY(-15px);
@@ -138,7 +141,8 @@ input.form-control {
       text-decoration-color: red;
       padding-top: 10px; }
     .sectionmediosdepago section div p {
-      width: 18vw; }
+      width: 18vw;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 .formasdepago {
   list-style: none;
