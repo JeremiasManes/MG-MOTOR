@@ -4,7 +4,7 @@
         text-decoration: underline;
         text-underline-offset: 2px;
         padding-top: 4vh;
-        font-size: large;
+        font-size: 1.5rem;
         font-weight: bold;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
@@ -17,16 +17,39 @@
         justify-content: space-around;
         align-items: center;
         position: relative;
-        margin-top: 15vh;
+        margin-top: 10vh;
 
         div {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: wrap;
-            align-content: center;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: grey;
+            height: 50vh;
+            width: 20vw;
+            border-radius: 40px;
+            transition: all 0.25s;
+            text-align: center;
+
+            &:hover {
+                transform: translateY(-15px);
+                box-shadow: 12px 12px 20px black;
+            }
+
+            h4 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-decoration: overline underline;
+                text-underline-offset: 3px;
+                text-decoration-thickness: 5px;
+                text-decoration-color: red;
+                padding-top: 10px;
+            }
+
+            p {
+                width: 18vw;
+            }
         }
     }
 }
