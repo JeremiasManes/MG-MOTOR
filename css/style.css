@@ -95,6 +95,29 @@ input.form-control {
       text-underline-offset: 2px;
       font-size: small; }
 
+.sectionindex {
+  height: 73vh;
+  background-image: url(/img/fondo2.jpg); }
+  .sectionindex h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 2vh;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    color: black; }
+  .sectionindex section div {
+    background-color: grey;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    height: 20vh;
+    width: 30vw; }
+    .sectionindex section div p {
+      padding: 10px;
+      font-size: medium; }
+
 .sectionmediosdepago h1 {
   text-align: center;
   text-decoration: underline;
