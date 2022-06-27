@@ -77,12 +77,12 @@
 
 .infocontacto {
     display: flex;
-    width: 17%;
+    width: 30%;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    row-gap: 4vh;
+    row-gap: 2vh;
 
     p {
         color: white;
@@ -90,8 +90,7 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 1.1rem;
     }
-
-    img {
+    iframe {
         border-radius: 20px;
     }
 }
