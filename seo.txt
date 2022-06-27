@@ -23,7 +23,7 @@
 	-contacto: "En MG Motor podras consultarnos todas tus dudas sin ningun compromiso, tanto por redes sociales o directamente por la pagina web."
 	-medios de pago: "En MG Motor vas a contar con muchas posibilidades de pago, tanto en efectivo, tarjetas o a travez de Mercadopago."
 	-productos: "En MG Motor vas a encontrar mucha variedad de repuestos para tu vehiculo, de alta calidad y garantia por 24 meses sin ningun costo extra."
-	-servicios: "MG Motor dispone de 3 servicios principales, venta de repuestos, instalacion de los mismos y un servicio postventa de excelente calidad"
+	-servicios: "MG Motor dispone de 3 servicios principales, venta de repuestos, instalacion de los mismos y un servicio postventa de excelente calidad."
 
 - CAMBIO 4:
   - Se agrego carpeta pages en proyecto, conteniendo todos los html excepto el index.
