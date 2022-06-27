@@ -125,7 +125,8 @@ input.form-control {
     width: 20vw;
     border-radius: 40px;
     transition: all 0.25s;
-    text-align: center; }
+    text-align: center;
+    box-shadow: 6px 6px 40px grey; }
     .sectionmediosdepago section div:hover {
       transform: translateY(-15px);
       box-shadow: 12px 12px 20px black; }
