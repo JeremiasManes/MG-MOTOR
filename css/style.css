@@ -98,25 +98,52 @@ input.form-control {
 .sectionindex {
   height: 73vh;
   background-image: url(/img/fondo2.jpg); }
-  .sectionindex h1 {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    font-weight: bold;
-    padding-top: 2vh;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 4px;
-    color: black; }
+  .sectionindex div {
+    transform: translateY(2vh);
+    padding-top: 1vh;
+    margin-left: 37vw;
+    background-color: #9c7038;
+    height: 9vh;
+    width: 25vw;
+    border-radius: 10px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 5px 5px 20px black; }
+    .sectionindex div h1 {
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 2rem;
+      font-weight: bold;
+      text-decoration: underline;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+      color: black; }
   .sectionindex section div {
-    background-color: grey;
-    margin-left: 2vw;
-    margin-top: 5vh;
-    height: 20vh;
-    width: 30vw; }
+    background-color: #9c7038;
+    margin-left: 4vw;
+    margin-top: 7vh;
+    height: 30vh;
+    width: 28vw;
+    border-radius: 10px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 5px 5px 20px black; }
+    .sectionindex section div h5 {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.5rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-decoration: underline;
+      text-underline-offset: 1px; }
     .sectionindex section div p {
-      padding: 10px;
-      font-size: medium; }
+      color: black;
+      text-align: center;
+      padding: auto;
+      font-size: large;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 .sectionmediosdepago h1 {
   text-align: center;
