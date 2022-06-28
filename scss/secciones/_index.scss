@@ -1,20 +1,14 @@
 .sectionindex {
     height: 73vh;
-    background-image: url(/img/fondo2.jpg);
+    background-image: url(/img/fondo1.jpg);
 
     div {
         transform: translateY(2vh);
         padding-top: 1vh;
         margin-left: 37vw;
-        background-color: #9c7038;
+        background-color: black;
         height: 9vh;
         width: 25vw;
-        border-radius: 10px;
-        border-width: 2px;
-        border-color: black;
-        border-style: solid;
-        box-shadow: 5px 5px 20px black;
-
 
         h1 {
             text-align: center;
@@ -24,7 +18,7 @@
             text-decoration: underline;
             text-decoration-thickness: 3px;
             text-underline-offset: 4px;
-            color: black;
+            color: white;
         }
     }
 

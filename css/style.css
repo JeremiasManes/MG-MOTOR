@@ -97,19 +97,14 @@ input.form-control {
 
 .sectionindex {
   height: 73vh;
-  background-image: url(/img/fondo2.jpg); }
+  background-image: url(/img/fondo1.jpg); }
   .sectionindex div {
     transform: translateY(2vh);
     padding-top: 1vh;
     margin-left: 37vw;
-    background-color: #9c7038;
+    background-color: black;
     height: 9vh;
-    width: 25vw;
-    border-radius: 10px;
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
-    box-shadow: 5px 5px 20px black; }
+    width: 25vw; }
     .sectionindex div h1 {
       text-align: center;
       font-family: 'Times New Roman', Times, serif;
@@ -118,7 +113,7 @@ input.form-control {
       text-decoration: underline;
       text-decoration-thickness: 3px;
       text-underline-offset: 4px;
-      color: black; }
+      color: white; }
   .sectionindex .section1 {
     width: 50%;
     float: left; }
@@ -212,61 +207,27 @@ input.form-control {
             color: black;
             font-weight: bold; }
 
-.sectionindex {
-  height: 73vh;
-  background-image: url(/img/fondo2.jpg); }
-  .sectionindex div {
-    transform: translateY(2vh);
-    padding-top: 1vh;
-    margin-left: 37vw;
+.section2registro {
+  width: 50%;
+  float: right; }
+  .section2registro div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     background-color: #9c7038;
-    height: 9vh;
-    width: 25vw;
+    height: 56vh;
+    width: 20vw;
+    transform: translate(-15vw, 5vh);
     border-radius: 10px;
     border-width: 2px;
     border-color: black;
     border-style: solid;
     box-shadow: 5px 5px 20px black; }
-    .sectionindex div h1 {
-      text-align: center;
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 2rem;
-      font-weight: bold;
-      text-decoration: underline;
-      text-decoration-thickness: 3px;
-      text-underline-offset: 4px;
-      color: black; }
-  .sectionindex .section1 {
-    width: 50%;
-    float: left; }
-    .sectionindex .section1 div {
-      background-color: #9c7038;
-      transform: translate(-32vw, 12vh);
-      height: 30vh;
-      width: 28vw;
-      border-radius: 10px;
-      border-width: 2px;
-      border-color: black;
-      border-style: solid;
-      box-shadow: 5px 5px 20px black; }
-      .sectionindex .section1 div h5 {
-        color: black;
-        text-align: center;
-        font-weight: bold;
-        font-size: 1.5rem;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-decoration: underline;
-        text-underline-offset: 1px; }
-      .sectionindex .section1 div p {
-        color: black;
-        text-align: center;
-        padding: auto;
-        font-size: large;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  .sectionindex .section2registro {
-    width: 50%;
-    float: right; }
-    .sectionindex .section2registro div {
+    .section2registro div form {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -274,60 +235,43 @@ input.form-control {
       justify-content: space-between;
       align-items: center;
       text-align: center;
-      background-color: #9c7038;
-      height: 56vh;
-      width: 20vw;
-      transform: translate(-15vw, 5vh);
-      border-radius: 10px;
-      border-width: 2px;
-      border-color: black;
-      border-style: solid;
-      box-shadow: 5px 5px 20px black; }
-      .sectionindex .section2registro div form {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        row-gap: 0;
-        color: black;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-        .sectionindex .section2registro div form h5 {
+      row-gap: 0;
+      color: black;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+      .section2registro div form h5 {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        font-weight: bold; }
+      .section2registro div form input {
+        border-radius: 10px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid; }
+        .section2registro div form input:focus {
+          outline: none;
+          border-width: 3px; }
+      .section2registro div form button {
+        border-radius: 10px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+        width: 8vw;
+        margin-top: 1rem; }
+        .section2registro div form button:hover {
+          background-color: #9c7038;
+          border-width: 3px;
+          color: white; }
+      .section2registro div form p {
+        margin-top: 0.7rem; }
+      .section2registro div form p a {
+        text-decoration: none;
+        color: white;
+        padding-left: 10px; }
+        .section2registro div form p a:hover {
           text-decoration: underline;
           text-underline-offset: 2px;
+          color: black;
           font-weight: bold; }
-        .sectionindex .section2registro div form input {
-          border-radius: 10px;
-          border-width: 2px;
-          border-color: black;
-          border-style: solid; }
-          .sectionindex .section2registro div form input:focus {
-            outline: none;
-            border-width: 3px; }
-        .sectionindex .section2registro div form button {
-          border-radius: 10px;
-          border-width: 2px;
-          border-color: black;
-          border-style: solid;
-          width: 8vw;
-          margin-top: 1rem; }
-          .sectionindex .section2registro div form button:hover {
-            background-color: #9c7038;
-            border-width: 3px;
-            color: white; }
-        .sectionindex .section2registro div form p {
-          margin-top: 0.7rem; }
-        .sectionindex .section2registro div form p a {
-          text-decoration: none;
-          color: white;
-          padding-left: 10px; }
-          .sectionindex .section2registro div form p a:hover {
-            text-decoration: underline;
-            text-underline-offset: 2px;
-            color: black;
-            font-weight: bold; }
 
 .sectionmediosdepago h1 {
   text-align: center;
