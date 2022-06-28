@@ -6,6 +6,7 @@
 	-medios de pago: Nombre de marca | Medios de pago
 	-productos: Nombre de marca | Productos
 	-servicios: Nombre de marca | Servicios
+	-registrarse: Nombre de marca | Registro
 
 - CAMBIO 2:
   - Se agregaron keywords en cada uno de los html:
@@ -15,6 +16,7 @@
 	-medios de pago: "forma de pago, tarjeta, mercado pago, efectivo"
 	-productos: "repuestos, levas, baterias, espirales, amortiguadores"
 	-servicios: "servicios, venta, instalacion, garantia"
+	-registrarse: "registrarse, nombre, telefono, mail, contraseña"
 
 - CAMBIO 3:
   - Se agrego etiqueta meta con description en todos los html:
@@ -24,6 +26,7 @@
 	-medios de pago: "En MG Motor vas a contar con muchas posibilidades de pago, tanto en efectivo, tarjetas o a travez de Mercadopago."
 	-productos: "En MG Motor vas a encontrar mucha variedad de repuestos para tu vehiculo, de alta calidad y garantia por 24 meses sin ningun costo extra."
 	-servicios: "MG Motor dispone de 3 servicios principales, venta de repuestos, instalacion de los mismos y un servicio postventa de excelente calidad."
+	-registrarse: "En MG Motor contaras con una cuenta propia, donde podras realizar compras y consultas."
 
 - CAMBIO 4:
   - Se agrego carpeta pages en proyecto, conteniendo todos los html excepto el index.
