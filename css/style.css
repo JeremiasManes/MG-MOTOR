@@ -119,31 +119,63 @@ input.form-control {
       text-decoration-thickness: 3px;
       text-underline-offset: 4px;
       color: black; }
-  .sectionindex section div {
-    background-color: #9c7038;
-    margin-left: 4vw;
-    margin-top: 7vh;
-    height: 30vh;
-    width: 28vw;
-    border-radius: 10px;
-    border: 2px;
-    border-color: black;
-    border-style: solid;
-    box-shadow: 5px 5px 20px black; }
-    .sectionindex section div h5 {
+  .sectionindex .section1 {
+    width: 50%;
+    float: left; }
+    .sectionindex .section1 div {
+      background-color: #9c7038;
+      transform: translate(-32vw, 12vh);
+      height: 30vh;
+      width: 28vw;
+      border-radius: 10px;
+      border: 2px;
+      border-color: black;
+      border-style: solid;
+      box-shadow: 5px 5px 20px black; }
+      .sectionindex .section1 div h5 {
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: underline;
+        text-underline-offset: 1px; }
+      .sectionindex .section1 div p {
+        color: black;
+        text-align: center;
+        padding: auto;
+        font-size: large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .sectionindex .section2 {
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2vh; }
+    .sectionindex .section2 a {
       color: black;
-      text-align: center;
       font-weight: bold;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      text-decoration: underline;
-      text-underline-offset: 1px; }
-    .sectionindex section div p {
-      color: black;
-      text-align: center;
-      padding: auto;
-      font-size: large;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+      text-decoration: none; }
+      .sectionindex .section2 a button {
+        background-color: #9c7038;
+        transform: translate(0vw, 20vh);
+        height: 8vh;
+        width: 15vw;
+        border-radius: 10px;
+        border: 2px;
+        border-color: black;
+        border-style: solid;
+        box-shadow: 5px 5px 20px black;
+        transition: all 0.2s; }
+        .sectionindex .section2 a button:hover {
+          transform: translate(0.5vw, 20.5vh);
+          color: white; }
 
 .sectionmediosdepago h1 {
   text-align: center;
