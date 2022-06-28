@@ -1,0 +1,152 @@
+.sectionindex {
+    height: 73vh;
+    background-image: url(/img/fondo2.jpg);
+
+    div {
+        transform: translateY(2vh);
+        padding-top: 1vh;
+        margin-left: 37vw;
+        background-color: #9c7038;
+        height: 9vh;
+        width: 25vw;
+        border-radius: 10px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+        box-shadow: 5px 5px 20px black;
+
+
+        h1 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2rem;
+            font-weight: bold;
+            text-decoration: underline;
+            text-decoration-thickness: 3px;
+            text-underline-offset: 4px;
+            color: black;
+        }
+    }
+
+    .section1 {
+        width: 50%;
+        float: left;
+
+        div {
+            background-color: #9c7038;
+            transform: translate(-32vw, 12vh);
+            height: 30vh;
+            width: 28vw;
+            border-radius: 10px;
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+            box-shadow: 5px 5px 20px black;
+
+            h5 {
+                color: black;
+                text-align: center;
+                font-weight: bold;
+                font-size: 1.5rem;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-decoration: underline;
+                text-underline-offset: 1px;
+            }
+
+            p {
+                color: black;
+                text-align: center;
+                padding: auto;
+                font-size: large;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+    }
+
+    .section2registro {
+        width: 50%;
+        float: right;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            background-color: #9c7038;
+            height: 56vh;
+            width: 20vw;
+            transform: translate(-15vw, 5vh);
+            border-radius: 10px;
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+            box-shadow: 5px 5px 20px black;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-content: center;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+                row-gap: 0;
+                color: black;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+                h5 {
+                    text-decoration: underline;
+                    text-underline-offset: 2px;
+                    font-weight: bold;
+                }
+
+                input {
+                    border-radius: 10px;
+                    border-width: 2px;
+                    border-color: black;
+                    border-style: solid;
+
+                    &:focus {
+                        outline: none;
+                        border-width: 3px;
+                    }
+                }
+
+                button {
+                    border-radius: 10px;
+                    border-width: 2px;
+                    border-color: black;
+                    border-style: solid;
+                    width: 8vw;
+                    margin-top: 1rem;
+
+                    &:hover {
+                        background-color: #9c7038;
+                        border-width: 3px;
+                        color: white;
+                    }
+                }
+
+                p {
+                    margin-top: 0.7rem;
+                }
+
+                p a {
+                    text-decoration: none;
+                    color: white;
+                    padding-left: 10px;
+
+                    &:hover {
+                        text-decoration: underline;
+                        text-underline-offset: 2px;
+                        color: black;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
