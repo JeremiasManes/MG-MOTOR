@@ -2,6 +2,69 @@
   padding: 0;
   margin: 0; }
 
+.sectionindex .section2 div, .section2registro div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  box-shadow: 5px 5px 20px black; }
+
+.sectionindex .section2 div form, .section2registro div form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .sectionindex .section2 div form h5, .section2registro div form h5 {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-weight: bold; }
+  .sectionindex .section2 div form input, .section2registro div form input {
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid; }
+    .sectionindex .section2 div form input:focus, .section2registro div form input:focus {
+      outline: none;
+      border-width: 4px; }
+  .sectionindex .section2 div form button, .section2registro div form button {
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 8vw;
+    margin-top: 1rem; }
+    .sectionindex .section2 div form button:hover, .section2registro div form button:hover {
+      border-width: 3px;
+      font-weight: bold;
+      width: 9vw; }
+  .sectionindex .section2 div form p, .section2registro div form p {
+    font-size: 1.2rem;
+    margin-top: 0.7rem; }
+  .sectionindex .section2 div form p a, .section2registro div form p a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px; }
+    .sectionindex .section2 div form p a:hover, .section2registro div form p a:hover {
+      color: black;
+      font-weight: bold;
+      border-radius: 10px;
+      border-color: black;
+      border-style: solid;
+      background-color: white;
+      padding-left: 0; }
+
 .grilla {
   display: grid;
   grid-template-areas: "header header header" "main main main" "footer footer footer"; }
@@ -102,10 +165,10 @@ input.form-control {
     height: 9vh;
     width: 25vw; }
     .sectionindex div h1 {
-      text-align: center;
-      font-family: 'Times New Roman', Times, serif;
       font-size: 2.5rem;
+      text-align: center;
       font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
       text-decoration: underline;
       text-decoration-thickness: 3px;
       text-underline-offset: 4px;
@@ -118,10 +181,11 @@ input.form-control {
       height: 30vh;
       width: 28vw; }
       .sectionindex .section1 div p {
-        color: white;
-        text-align: center;
-        padding: auto;
         font-size: large;
+        text-align: center;
+        font-weight: 0;
+        color: white;
+        padding: auto;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   .sectionindex .section2 {
     width: 50%;
@@ -146,12 +210,12 @@ input.form-control {
   background-image: url(../img/fondomedios.jpg);
   height: 73vh; }
   .sectionmediosdepago h1 {
+    font-size: 1.5rem;
     text-align: center;
+    font-weight: bold;
     text-decoration: underline;
     text-underline-offset: 2px;
     padding-top: 4vh;
-    font-size: 1.5rem;
-    font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   .sectionmediosdepago section {
     display: flex;
@@ -162,6 +226,37 @@ input.form-control {
     align-items: center;
     position: relative;
     margin-top: 10vh; }
+    .sectionmediosdepago section div {
+      background-color: grey;
+      border-color: black;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      height: 50vh;
+      width: 20vw;
+      border-radius: 40px;
+      transition: all 0.25s;
+      text-align: center;
+      border-width: 4px;
+      border-style: solid;
+      box-shadow: 6px 6px 40px grey; }
+      .sectionmediosdepago section div:hover {
+        transform: translateY(-15px);
+        box-shadow: 12px 12px 20px black; }
+      .sectionmediosdepago section div h4 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: overline underline;
+        text-underline-offset: 3px;
+        text-decoration-thickness: 5px;
+        text-decoration-color: red;
+        padding-top: 10px; }
+      .sectionmediosdepago section div p {
+        width: 18vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 .sectioncontacto {
   display: flex;
@@ -185,16 +280,19 @@ input.form-control {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
     .sectioncontacto div form h1 {
       font-size: large;
-      font-family: 'Times New Roman', Times, serif;
+      text-align: 0;
       font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
       text-decoration: underline;
       text-decoration-thickness: 2px;
       text-underline-offset: 2px;
       text-decoration-color: red; }
     .sectioncontacto div form input {
+      background-color: 0;
+      border-color: red;
+      color: black;
       border-radius: 5px;
-      border-width: 2px;
-      border-color: red; }
+      border-width: 2px; }
       .sectioncontacto div form input:focus:not(input[type="checkbox"]) {
         outline-style: solid;
         outline-color: red;
@@ -245,99 +343,46 @@ input.form-control {
   .infocontacto iframe {
     border-radius: 20px; }
 
-.sectionmediosdepago section div {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: grey;
-  height: 50vh;
-  width: 20vw;
-  border-radius: 40px;
-  transition: all 0.25s;
+.sectionservicios h1 {
+  font-size: x-large;
   text-align: center;
-  border-width: 4px;
-  border-color: black;
-  border-style: solid;
-  box-shadow: 6px 6px 40px grey; }
-  .sectionmediosdepago section div:hover {
-    transform: translateY(-15px);
-    box-shadow: 12px 12px 20px black; }
-  .sectionmediosdepago section div h4 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: overline underline;
-    text-underline-offset: 3px;
-    text-decoration-thickness: 5px;
-    text-decoration-color: red;
-    padding-top: 10px; }
-  .sectionmediosdepago section div p {
-    width: 18vw;
+  font-weight: 0;
+  padding-top: 2vh;
+  color: black; }
+
+.sectionservicios section {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14vw; }
+  .sectionservicios section div {
+    background-color: red;
+    border-color: black;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    width: 10vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
-.sectionindex .section2 div, .section2registro div {
+.sectionservicios .sectionimg {
+  margin-top: 5vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-between;
   align-items: center;
-  text-align: center;
-  border-radius: 10px;
-  border-width: 2px;
-  border-color: black;
-  border-style: solid;
-  box-shadow: 5px 5px 20px black; }
-
-.sectionindex .section2 div form, .section2registro div form {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  .sectionindex .section2 div form h5, .section2registro div form h5 {
-    text-decoration: underline;
-    text-underline-offset: 2px;
-    font-weight: bold; }
-  .sectionindex .section2 div form input, .section2registro div form input {
+  justify-content: center;
+  gap: 8vw; }
+  .sectionservicios .sectionimg img {
+    border: black;
     border-radius: 10px;
-    border-width: 2px;
-    border-color: black;
-    border-style: solid; }
-    .sectionindex .section2 div form input:focus, .section2registro div form input:focus {
-      outline: none;
-      border-width: 4px; }
-  .sectionindex .section2 div form button, .section2registro div form button {
-    border-radius: 10px;
-    border-width: 2px;
-    border-color: black;
     border-style: solid;
-    width: 8vw;
-    margin-top: 1rem; }
-    .sectionindex .section2 div form button:hover, .section2registro div form button:hover {
-      border-width: 3px;
-      font-weight: bold;
-      width: 9vw; }
-  .sectionindex .section2 div form p, .section2registro div form p {
-    font-size: 1.2rem;
-    margin-top: 0.7rem; }
-  .sectionindex .section2 div form p a, .section2registro div form p a {
-    text-decoration: none;
-    color: white;
-    padding-left: 10px; }
-    .sectionindex .section2 div form p a:hover, .section2registro div form p a:hover {
-      color: black;
-      font-weight: bold;
-      border-radius: 10px;
-      border-color: black;
-      border-style: solid;
-      background-color: white;
-      padding-left: 0; }
+    width: 16vw;
+    height: 30vh; }
 
 /* RESPONSIVE DESIGN- MEDIA QUERY- MOBILES LAST */
 @media (max-width: 375px) {

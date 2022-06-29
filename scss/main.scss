@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+@import './variables/mixins';
+@import './variables/extend';
+
 @import './secciones/general';
 @import './secciones/index';
 @import './secciones/registrarse';
@@ -10,7 +13,7 @@
 @import './secciones/mediosdepago';
 @import './secciones/contacto';
 @import './secciones/servicios';
-@import './variables/extend';
+
 
 /* RESPONSIVE DESIGN- MEDIA QUERY- MOBILES LAST */
 

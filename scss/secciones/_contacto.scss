@@ -21,9 +21,8 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
         h1 {
-            font-size: large;
+            @include estilotexto(large, 0, bold);
             font-family: 'Times New Roman', Times, serif;
-            font-weight: bold;
             text-decoration: underline;
             text-decoration-thickness: 2px;
             text-underline-offset: 2px;
@@ -31,9 +30,9 @@
         }
 
         input {
+            @include estiloscard(0, red, black);
             border-radius: 5px;
             border-width: 2px;
-            border-color: red;
 
             &:focus:not(input[type="checkbox"]) {
                 outline-style: solid;

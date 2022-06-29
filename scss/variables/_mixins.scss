@@ -1,0 +1,11 @@
+@mixin estiloscard($colorfondo, $colorborde, $colorletra) {
+    background-color: $colorfondo;
+    border-color: $colorborde;
+    color: $colorletra;
+}
+
+@mixin estilotexto($tamano, $alineacion, $anchura) {
+    font-size: $tamano;
+    text-align: $alineacion;
+    font-weight: $anchura;
+}

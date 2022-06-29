@@ -11,10 +11,8 @@
         width: 25vw;
 
         h1 {
-            text-align: center;
+            @include estilotexto(2.5rem, center, bold);
             font-family: 'Times New Roman', Times, serif;
-            font-size: 2.5rem;
-            font-weight: bold;
             text-decoration: underline;
             text-decoration-thickness: 3px;
             text-underline-offset: 4px;
@@ -33,10 +31,9 @@
 
 
             p {
+                @include estilotexto(large, center, 0);
                 color: white;
-                text-align: center;
                 padding: auto;
-                font-size: large;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             }
         }
