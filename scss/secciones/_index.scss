@@ -4,8 +4,8 @@
     background-position: center;
 
     div {
-        transform: translateY(2vh);
-        padding-top: 1vh;
+
+
         margin-left: 37vw;
         height: 9vh;
         width: 25vw;
@@ -30,7 +30,7 @@
             transform: translate(-32vw, 22vh);
             height: 30vh;
             width: 28vw;
-            
+
 
             p {
                 color: white;
@@ -56,7 +56,8 @@
             text-align: center;
             height: 48vh;
             width: 20vw;
-            transform: translate(-15vw, 10vh);
+            padding-top: 1vh;
+            transform: translate(-19vw, 2vh);
             border-radius: 10px;
             border-width: 2px;
             border-color: black;
@@ -89,7 +90,7 @@
 
                     &:focus {
                         outline: none;
-                        border-width: 3px;
+                        border-width: 4px;
                     }
                 }
 
@@ -103,11 +104,12 @@
 
                     &:hover {
                         border-width: 3px;
-                        color: white;
+                        font-weight: bold;
                     }
                 }
 
                 p {
+                    font-size: 1.2rem;
                     margin-top: 0.7rem;
                 }
 
@@ -117,10 +119,13 @@
                     padding-left: 10px;
 
                     &:hover {
-                        text-decoration: underline;
-                        text-underline-offset: 2px;
                         color: black;
                         font-weight: bold;
+                        border-radius: 10px;
+                        border-color: black;
+                        border-style: solid;
+                        background-color: white;
+                        padding-left: 0;
                     }
                 }
             }
