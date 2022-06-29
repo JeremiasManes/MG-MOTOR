@@ -66,6 +66,37 @@
         }
     }
 
+    /* CLASES REGISTRARSE */
+    .section2registro {
+        div {
+            height: 60vh;
+            width: 50vw;
+            transform: translate(-63vw, 0vh);
+
+            form {
+                color: black;
+                font-weight: bold;
+
+                h5 {
+                    font-size: medium;
+                }
+
+                button {
+                    margin-top: 1vh;
+                    width: 28vw;
+                }
+
+                p {
+                    color: white;
+                    font-weight: bold;
+                    font-size: 0.8rem;
+                    margin-top: 0.5vh;
+                }
+            }
+        }
+    }
+
+
 
     /* CLASES CONTACTO */
     .sectioncontacto {
