@@ -58,7 +58,7 @@ input.form-control {
 
 .sectionfooter {
   background-image: url(../../img/banner.jpg);
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   display: flex;
@@ -317,7 +317,6 @@ input.form-control {
   font-size: large;
   font-weight: bold; }
 
-/* CLASES CONTACTO */
 .sectioncontacto {
   display: flex;
   flex-direction: row;
@@ -399,3 +398,46 @@ input.form-control {
     text-decoration-thickness: 3px; }
   .infocontacto iframe {
     border-radius: 20px; }
+
+/* RESPONSIVE DESIGN- MEDIA QUERY- MOBILES LAST */
+@media (max-width: 375px) {
+  /* CLASES FOOTER */
+  .sectionfooter ol {
+    display: none; }
+  /* CLASES INDEX */
+  .sectionindex {
+    background-size: cover; }
+    .sectionindex div h1 {
+      font-size: 1.1rem;
+      text-decoration: none; }
+    .sectionindex .section1 {
+      display: none; }
+    .sectionindex .section2 div {
+      height: 60vh;
+      width: 50vw;
+      transform: translate(-63vw, 0vh); }
+      .sectionindex .section2 div form {
+        color: black;
+        font-weight: bold; }
+        .sectionindex .section2 div form h5 {
+          font-size: medium; }
+        .sectionindex .section2 div form button {
+          width: 25vw; }
+        .sectionindex .section2 div form p {
+          color: white;
+          font-weight: bold;
+          font-size: medium;
+          margin-top: 0.8vh; }
+  /* CLASES CONTACTO */
+  .sectioncontacto {
+    align-content: flex-start; }
+    .sectioncontacto .infocontacto {
+      display: none; }
+    .sectioncontacto div form {
+      font-size: medium;
+      row-gap: 0vh;
+      margin-top: 0vh; }
+      .sectioncontacto div form h1 {
+        display: none; }
+      .sectioncontacto div form div {
+        margin-top: 0.5vh; } }

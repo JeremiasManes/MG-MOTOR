@@ -10,3 +10,83 @@
 @import './secciones/mediosdepago';
 @import './secciones/contacto';
 @import './secciones/servicios';
+
+/* RESPONSIVE DESIGN- MEDIA QUERY- MOBILES LAST */
+
+@media (max-width: 375px) {
+
+    /* CLASES FOOTER */
+    .sectionfooter {
+        ol {
+            display: none;
+        }
+    }
+
+    /* CLASES INDEX */
+    .sectionindex {
+        background-size: cover;
+
+        div {
+            h1 {
+                font-size: 1.1rem;
+                text-decoration: none;
+            }
+        }
+
+        .section1 {
+            display: none;
+        }
+
+        .section2 {
+            div {
+                height: 60vh;
+                width: 50vw;
+                transform: translate(-63vw, 0vh);
+
+                form {
+                    color: black;
+                    font-weight: bold;
+
+                    h5 {
+                        font-size: medium;
+                    }
+
+                    button {
+                        width: 25vw;
+                    }
+
+                    p {
+                        color: white;
+                        font-weight: bold;
+                        font-size: medium;
+                        margin-top: 0.8vh;
+                    }
+                }
+            }
+        }
+    }
+
+
+    /* CLASES CONTACTO */
+    .sectioncontacto {
+        align-content: flex-start;
+
+        .infocontacto {
+            display: none;
+        }
+
+        div form {
+            font-size: medium;
+            row-gap: 0vh;
+            margin-top: 0vh;
+
+            h1 {
+                display: none;
+            }
+
+            div {
+                margin-top: 0.5vh;
+            }
+        }
+    }
+}
