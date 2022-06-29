@@ -120,4 +120,42 @@
             }
         }
     }
+
+    /* CLASES MEDIOS DE PAGO */
+    .sectionmediosdepago {
+        h1 {
+            font-size: 1rem;
+            padding-top: 1vh;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            margin-top: 1vh;
+            row-gap: 1vh;
+
+            div {
+                height: 20vh;
+                width: 90vw;
+                justify-content: center;
+
+                img {
+                    display: none;
+                }
+
+                h4 {
+                    font-size: 1rem;
+                }
+
+                p {
+                    width: 90vw;
+                }
+            }
+        }
+    }
 }
