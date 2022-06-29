@@ -20,7 +20,7 @@
     transform: rotate(360deg); } }
 
 .navbar {
-  background-image: url(../../img/banner.jpg); }
+  background-image: url(../img/banner.jpg); }
 
 a.nav-link {
   color: white;
@@ -57,7 +57,7 @@ input.form-control {
   grid-area: footer; }
 
 .sectionfooter {
-  background-image: url(../../img/banner.jpg);
+  background-image: url(../img/banner.jpg);
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -95,7 +95,7 @@ input.form-control {
 
 .sectionindex {
   height: 73vh;
-  background-image: url(../../img/fondo1.jpg);
+  background-image: url(../img/fondo1.jpg);
   background-position: center; }
   .sectionindex div {
     margin-left: 37vw;
@@ -262,7 +262,7 @@ input.form-control {
           padding-left: 0; }
 
 .sectionmediosdepago {
-  background-image: url(../../img/fondomedios.jpg);
+  background-image: url(../img/fondomedios.jpg);
   height: 73vh; }
   .sectionmediosdepago h1 {
     text-align: center;
