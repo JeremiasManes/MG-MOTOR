@@ -47,87 +47,15 @@
         float: right;
 
         div {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-content: center;
-            justify-content: space-between;
-            align-items: center;
-            text-align: center;
+            @extend %divSection2IndexRegistro;
             height: 48vh;
             width: 20vw;
             padding-top: 1vh;
             transform: translate(-19vw, 2vh);
-            border-radius: 10px;
-            border-width: 2px;
-            border-color: black;
-            border-style: solid;
-            box-shadow: 5px 5px 20px black;
 
             form {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                align-content: center;
-                justify-content: space-between;
-                align-items: center;
-                text-align: center;
+                @extend %FormSection2IndexRegistro;
                 row-gap: 1vh;
-                color: white;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-                h5 {
-                    text-decoration: underline;
-                    text-underline-offset: 2px;
-                    font-weight: bold;
-                }
-
-                input {
-                    border-radius: 10px;
-                    border-width: 2px;
-                    border-color: black;
-                    border-style: solid;
-
-                    &:focus {
-                        outline: none;
-                        border-width: 4px;
-                    }
-                }
-
-                button {
-                    border-radius: 10px;
-                    border-width: 2px;
-                    border-color: black;
-                    border-style: solid;
-                    width: 8vw;
-                    margin-top: 1rem;
-
-                    &:hover {
-                        border-width: 3px;
-                        font-weight: bold;
-                    }
-                }
-
-                p {
-                    font-size: 1.2rem;
-                    margin-top: 0.7rem;
-                }
-
-                p a {
-                    text-decoration: none;
-                    color: white;
-                    padding-left: 10px;
-
-                    &:hover {
-                        color: black;
-                        font-weight: bold;
-                        border-radius: 10px;
-                        border-color: black;
-                        border-style: solid;
-                        background-color: white;
-                        padding-left: 0;
-                    }
-                }
             }
         }
     }
