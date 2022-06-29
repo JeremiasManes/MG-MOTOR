@@ -20,7 +20,7 @@
     transform: rotate(360deg); } }
 
 .navbar {
-  background-image: url(../img/banner.jpg); }
+  background-image: url(../../img/banner.jpg); }
 
 a.nav-link {
   color: white;
@@ -57,9 +57,7 @@ input.form-control {
   grid-area: footer; }
 
 .sectionfooter {
-  background-image: url(../img/footer.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(../../img/banner.jpg);
   position: absolute;
   bottom: 0;
   width: 100%;

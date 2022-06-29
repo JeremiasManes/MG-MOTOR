@@ -27,7 +27,7 @@
 }
 
 .navbar {
-    background-image: url(../img/banner.jpg);
+    background-image: url(../../img/banner.jpg);
 }
 
 a.nav-link {
@@ -79,9 +79,7 @@ input.form-control {
 }
 
 .sectionfooter {
-    background-image: url(../img/footer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../../img/banner.jpg);
     position: absolute;
     bottom: 0;
     width: 100%;
