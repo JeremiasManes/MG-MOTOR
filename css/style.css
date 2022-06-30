@@ -258,6 +258,9 @@ input.form-control {
           background-color: white;
           padding-left: 0; }
 
+h1 {
+  color: black; }
+
 .sectionmediosdepago {
   background-image: url(../img/fondomedios.jpg);
   height: 73vh; }
