@@ -5,6 +5,8 @@
     h1 {
         @include estilotexto(1.5rem, center, bold);
         text-decoration: underline;
+        text-decoration-color: red;
+        text-decoration-thickness: 3px;
         text-underline-offset: 2px;
         padding-top: 4vh;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
