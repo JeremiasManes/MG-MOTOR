@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0; }
 
-.sectionindex .section2 div, .section2registro div {
+.sectionindex .section2 div, .section2registro div, .sectionservicios section div {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -401,46 +401,44 @@ h1 {
 .sectionservicios h1 {
   font-size: x-large;
   text-align: center;
-  font-weight: 0;
+  font-weight: bold;
   padding-top: 2vh;
-  color: black; }
+  color: black;
+  text-decoration: overline underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: red;
+  text-underline-offset: 5px; }
 
 .sectionservicios section {
-  margin-top: 5vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  gap: 14vw; }
+  margin-top: 8vh; }
   .sectionservicios section div {
-    background-color: red;
-    border-color: black;
-    color: black;
-    text-align: center;
-    border-radius: 20px;
-    border-width: 2px;
-    border-style: solid;
-    width: 10vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-
-.sectionservicios .sectionimg {
-  margin-top: 5vh;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 8vw; }
-  .sectionservicios .sectionimg img {
-    border-color: black;
-    border-radius: 10px;
-    border-style: solid;
-    width: 16vw;
-    height: 30vh; }
-    .sectionservicios .sectionimg img:hover {
-      border-color: red;
-      border-radius: 20px; }
+    row-gap: 3vh; }
+    .sectionservicios section div h5 {
+      font-size: 1.2rem;
+      text-align: center;
+      font-weight: bold;
+      background-color: red;
+      border-color: black;
+      color: black;
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 2px;
+      width: 10vw; }
+    .sectionservicios section div img {
+      border-color: black;
+      border-radius: 10px;
+      border-style: solid;
+      width: 16vw;
+      height: 30vh; }
+      .sectionservicios section div img:hover {
+        border-color: red;
+        border-radius: 20px; }
 
 /* RESPONSIVE DESIGN- MEDIA QUERY- MOBILES LAST */
 @media (max-width: 375px) {
