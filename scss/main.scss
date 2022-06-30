@@ -162,4 +162,38 @@
             }
         }
     }
+
+    /* CLASES SERVICIOS */
+    .sectionservicios {
+        h1 {
+            font-size: 1rem;
+            padding-top: 1vh;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-decoration-color: red;
+            text-underline-offset: 2px;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-around;
+            align-items: center;
+            row-gap: 5vh;
+
+            div {
+                h5 {
+                    font-size: medium;
+                    width: 30vw;
+                }
+
+                img {
+                    width: 50vw;
+                }
+            }
+        }
+    }
+
 }

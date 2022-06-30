@@ -4,6 +4,7 @@
 
     h1 {
         @include estilotexto(1.5rem, center, bold);
+        color: black;
         text-decoration: underline;
         text-decoration-color: red;
         text-decoration-thickness: 3px;
