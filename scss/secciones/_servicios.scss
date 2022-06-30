@@ -35,11 +35,16 @@
         gap: 8vw;
 
         img {
-            border: black;
+            border-color: black;
             border-radius: 10px;
             border-style: solid;
             width: 16vw;
             height: 30vh;
+
+            &:hover {
+                border-color: red;
+                border-radius: 20px;
+            }
         }
     }
 }
