@@ -520,6 +520,29 @@ input.form-control {
           font-weight: bold;
           font-size: medium;
           margin-top: 0.8vh; }
+  /* CLASES PRODUCTOS */
+  .sectionproductos {
+    background-image: none;
+    background-color: grey;
+    height: auto; }
+    .sectionproductos h1 {
+      font-size: 1.5rem;
+      color: black; }
+    .sectionproductos section {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: space-around;
+      align-items: center;
+      row-gap: 2vh;
+      padding-top: 0vh; }
+      .sectionproductos section div {
+        height: 34vh;
+        width: 50vw; }
+        .sectionproductos section div ul li {
+          padding-top: 0vh;
+          padding-bottom: 1vh; }
   /* CLASES REGISTRARSE */
   .section2registro div {
     height: 60vh;

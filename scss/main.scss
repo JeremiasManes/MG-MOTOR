@@ -70,6 +70,42 @@
         }
     }
 
+    /* CLASES PRODUCTOS */
+    .sectionproductos {
+        background-image: none;
+        background-color: grey;
+        height: auto;
+
+        h1 {
+            font-size: 1.5rem;
+            color: black;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-around;
+            align-items: center;
+            row-gap: 2vh;
+            padding-top: 0vh;
+
+            div {
+                height: 34vh;
+                width: 50vw;
+
+                ul {
+
+                    li {
+                        padding-top: 0vh;
+                        padding-bottom: 1vh;
+                    }
+                }
+            }
+        }
+    }
+
     /* CLASES REGISTRARSE */
     .section2registro {
         div {
