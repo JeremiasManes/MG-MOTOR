@@ -1,7 +1,10 @@
-@mixin estiloscard($colorfondo, $colorborde, $colorletra) {
+@mixin estiloscard($colorfondo, $colorborde, $colorletra, $anchoborde, $estiloborde, $radioborde) {
     background-color: $colorfondo;
     border-color: $colorborde;
     color: $colorletra;
+    border-width: $anchoborde;
+    border-style: $estiloborde;
+    border-radius: $radioborde;
 }
 
 @mixin estilotexto($tamano, $alineacion, $anchura) {

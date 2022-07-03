@@ -1,3 +1,30 @@
-h1 {
-    color: black;
+.sectionproductos {
+    background-image: url(../img/fondoproductos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 73vh;
+
+    h1 {
+        @include estilotexto(2rem, center, bold);
+        color: white;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        width: 100%;
+        background-color: green;
+
+        div {
+            @extend %flexColumn;
+            @include estiloscard(grey, black, black, 2px, solid, 10px);
+            height: 30vh;
+            width: 20vw;
+        }
+    }
 }
