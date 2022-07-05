@@ -72,13 +72,12 @@
 
     /* CLASES PRODUCTOS */
     .sectionproductos {
-        background-image: none;
-        background-color: grey;
         height: auto;
+        background-repeat: repeat;
+        margin-bottom: 10vh;
 
         h1 {
             font-size: 1.5rem;
-            color: black;
         }
 
         section {
@@ -92,8 +91,18 @@
             padding-top: 0vh;
 
             div {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
                 height: 34vh;
                 width: 50vw;
+
+                h5 {
+                    font-size: 1rem;
+                }
 
                 ul {
 
@@ -218,6 +227,7 @@
             justify-content: space-around;
             align-items: center;
             row-gap: 5vh;
+            margin-bottom: 12vh;
 
             div {
                 h5 {

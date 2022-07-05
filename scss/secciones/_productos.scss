@@ -27,7 +27,7 @@
             width: 15vw;
 
             &:hover {
-                @include estiloscard(black, aquamarine, white, 4px, solid, 20px);
+                @include estiloscard(black, aquamarine, white, 2px, solid, 10px);
             }
 
             h5 {

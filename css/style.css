@@ -291,9 +291,9 @@ input.form-control {
         background-color: black;
         border-color: aquamarine;
         color: white;
-        border-width: 4px;
+        border-width: 2px;
         border-style: solid;
-        border-radius: 20px; }
+        border-radius: 10px; }
       .sectionproductos section div h5 {
         padding-top: 1vh;
         font-size: 1.3rem;
@@ -522,12 +522,11 @@ input.form-control {
           margin-top: 0.8vh; }
   /* CLASES PRODUCTOS */
   .sectionproductos {
-    background-image: none;
-    background-color: grey;
-    height: auto; }
+    height: auto;
+    background-repeat: repeat;
+    margin-bottom: 10vh; }
     .sectionproductos h1 {
-      font-size: 1.5rem;
-      color: black; }
+      font-size: 1.5rem; }
     .sectionproductos section {
       display: flex;
       flex-direction: column;
@@ -538,8 +537,16 @@ input.form-control {
       row-gap: 2vh;
       padding-top: 0vh; }
       .sectionproductos section div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
         height: 34vh;
         width: 50vw; }
+        .sectionproductos section div h5 {
+          font-size: 1rem; }
         .sectionproductos section div ul li {
           padding-top: 0vh;
           padding-bottom: 1vh; }
@@ -613,7 +620,8 @@ input.form-control {
     align-content: center;
     justify-content: space-around;
     align-items: center;
-    row-gap: 5vh; }
+    row-gap: 5vh;
+    margin-bottom: 12vh; }
     .sectionservicios section div h5 {
       font-size: medium;
       width: 30vw; }
