@@ -506,13 +506,15 @@ input.form-control {
     display: none; }
   /* CLASES INDEX */
   .sectionindex {
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
     .sectionindex div h1 {
       font-size: 1.1rem;
       text-decoration: none; }
     .sectionindex .section1 {
       display: none; }
     .sectionindex .section2 div {
+      margin-top: 1vh;
       height: 60vh;
       width: 50vw;
       transform: translate(-63vw, 0vh); }
@@ -524,10 +526,27 @@ input.form-control {
         .sectionindex .section2 div form button {
           width: 25vw; }
         .sectionindex .section2 div form p {
-          color: white;
+          color: black;
           font-weight: bold;
           font-size: medium;
           margin-top: 0.8vh; }
+  /* CLASES REGISTRARSE */
+  .section2registro div {
+    height: 65vh;
+    width: 50vw;
+    transform: translate(-63vw, 0vh); }
+    .section2registro div form {
+      color: black;
+      font-weight: bold; }
+      .section2registro div form h5 {
+        font-size: medium; }
+      .section2registro div form button {
+        margin-top: 2vh;
+        width: 28vw; }
+      .section2registro div form p {
+        color: black;
+        font-weight: bold;
+        font-size: 0.8rem; }
   /* CLASES PRODUCTOS */
   .sectionproductos {
     height: auto;
@@ -558,24 +577,6 @@ input.form-control {
         .sectionproductos section div ul li {
           padding-top: 0vh;
           padding-bottom: 1vh; }
-  /* CLASES REGISTRARSE */
-  .section2registro div {
-    height: 60vh;
-    width: 50vw;
-    transform: translate(-63vw, 0vh); }
-    .section2registro div form {
-      color: black;
-      font-weight: bold; }
-      .section2registro div form h5 {
-        font-size: medium; }
-      .section2registro div form button {
-        margin-top: 1vh;
-        width: 28vw; }
-      .section2registro div form p {
-        color: white;
-        font-weight: bold;
-        font-size: 0.8rem;
-        margin-top: 0.5vh; }
   /* CLASES CONTACTO */
   .sectioncontacto {
     align-content: flex-start; }
