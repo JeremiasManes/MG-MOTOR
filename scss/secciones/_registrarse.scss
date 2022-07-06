@@ -10,9 +10,12 @@
         border-color: black;
         border-style: solid;
         box-shadow: 5px 5px 20px black;
-        height: 56vh;
-        width: 20vw;
-        transform: translate(-19vw, 0vh);
+        height: 38vh;
+        width: 18vw;
+        transform: translate(-15vw, 15vh);
+        padding-top: 1vh;
+        background-color: white;
+        filter: opacity(70%);
 
         form {
             display: flex;
@@ -21,8 +24,9 @@
             align-content: center;
             justify-content: space-between;
             align-items: center;
+            row-gap: 0.3vh;
             text-align: center;
-            color: white;
+            color: black;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
             h5 {
@@ -65,16 +69,12 @@
 
             p a {
                 text-decoration: none;
-                color: white;
+                color: black;
                 padding-left: 10px;
 
                 &:hover {
-                    color: black;
+                    @include estiloscard(white, black, black, 3px, solid, 10px);
                     font-weight: bold;
-                    border-radius: 10px;
-                    border-color: black;
-                    border-style: solid;
-                    background-color: white;
                     padding-left: 0;
                 }
             }
