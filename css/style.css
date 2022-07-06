@@ -110,7 +110,7 @@ input.form-control {
     height: 9vh;
     width: 25vw; }
     .sectionindex div h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       text-align: center;
       font-weight: bold;
       font-family: 'Times New Roman', Times, serif;
@@ -122,9 +122,9 @@ input.form-control {
     width: 50%;
     float: left; }
     .sectionindex .section1 div {
-      transform: translate(-32vw, 22vh);
+      transform: translate(-28vw, 35vh);
       height: 30vh;
-      width: 28vw; }
+      width: 20vw; }
       .sectionindex .section1 div p {
         font-size: large;
         text-align: center;
@@ -142,10 +142,12 @@ input.form-control {
       border-color: black;
       border-style: solid;
       box-shadow: 5px 5px 20px black;
-      height: 48vh;
-      width: 20vw;
-      padding-top: 1vh;
-      transform: translate(-19vw, 2vh); }
+      height: 35vh;
+      width: 18vw;
+      padding-top: 2vh;
+      transform: translate(-15vw, 15vh);
+      background-color: white;
+      filter: opacity(70%); }
       .sectionindex .section2 div form {
         display: flex;
         flex-direction: column;
@@ -155,7 +157,7 @@ input.form-control {
         align-items: center;
         row-gap: 1vh;
         text-align: center;
-        color: white;
+        color: black;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
         .sectionindex .section2 div form h5 {
           text-decoration: underline;
@@ -185,15 +187,16 @@ input.form-control {
           margin-top: 0.7rem; }
         .sectionindex .section2 div form p a {
           text-decoration: none;
-          color: white;
+          color: black;
           padding-left: 10px; }
           .sectionindex .section2 div form p a:hover {
-            color: black;
-            font-weight: bold;
-            border-radius: 10px;
-            border-color: black;
-            border-style: solid;
             background-color: white;
+            border-color: black;
+            color: black;
+            border-width: 3px;
+            border-style: solid;
+            border-radius: 10px;
+            font-weight: bold;
             padding-left: 0; }
 
 .section2registro {
