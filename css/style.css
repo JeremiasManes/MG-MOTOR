@@ -102,9 +102,9 @@ input.form-control {
       font-size: small; }
 
 .sectionindex {
-  height: 73vh;
+  min-height: 85vh;
   background-image: url(../img/fondo1.jpg);
-  background-position: center; }
+  background-size: cover; }
   .sectionindex div {
     margin-left: 37vw;
     height: 9vh;
