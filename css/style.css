@@ -102,7 +102,7 @@ input.form-control {
       font-size: small; }
 
 .sectionindex {
-  min-height: 90vh;
+  min-height: 85vh;
   background-image: url(../img/fondo1.jpg);
   background-size: cover; }
   .sectionindex div {
@@ -318,16 +318,16 @@ input.form-control {
 
 .sectionmediosdepago {
   background-image: url(../img/fondomedios.jpg);
-  height: 73vh; }
+  min-height: 85vh; }
   .sectionmediosdepago h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     font-weight: bold;
     color: black;
     text-decoration: underline;
     text-decoration-color: red;
     text-decoration-thickness: 3px;
-    text-underline-offset: 2px;
+    text-underline-offset: 4px;
     padding-top: 4vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   .sectionmediosdepago section {
@@ -338,7 +338,7 @@ input.form-control {
     justify-content: space-around;
     align-items: center;
     position: relative;
-    margin-top: 10vh; }
+    margin-top: 15vh; }
     .sectionmediosdepago section div {
       background-color: grey;
       border-color: black;
@@ -352,7 +352,7 @@ input.form-control {
       justify-content: space-around;
       align-items: center;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      height: 50vh;
+      height: 40vh;
       width: 20vw;
       transition: all 0.25s;
       text-align: center;
@@ -368,6 +368,7 @@ input.form-control {
         text-decoration-color: red;
         padding-top: 10px; }
       .sectionmediosdepago section div p {
+        font-size: 1.5rem;
         width: 18vw;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
@@ -507,7 +508,8 @@ input.form-control {
   /* CLASES INDEX */
   .sectionindex {
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    min-height: 75vh; }
     .sectionindex div h1 {
       font-size: 1.1rem;
       text-decoration: none; }
@@ -532,16 +534,16 @@ input.form-control {
           margin-top: 0.8vh; }
   /* CLASES REGISTRARSE */
   .section2registro div {
-    height: 65vh;
+    height: 62vh;
     width: 50vw;
-    transform: translate(-63vw, 0vh); }
+    transform: translate(-63vw, -1vh); }
     .section2registro div form {
       color: black;
       font-weight: bold; }
       .section2registro div form h5 {
         font-size: medium; }
       .section2registro div form button {
-        margin-top: 2vh;
+        margin-top: 0.6vh;
         width: 28vw; }
       .section2registro div form p {
         color: black;
@@ -591,29 +593,32 @@ input.form-control {
       .sectioncontacto div form div {
         margin-top: 0.5vh; }
   /* CLASES MEDIOS DE PAGO */
-  .sectionmediosdepago h1 {
-    font-size: 1rem;
-    padding-top: 1vh; }
-  .sectionmediosdepago section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    margin-top: 1vh;
-    row-gap: 1vh; }
-    .sectionmediosdepago section div {
-      height: 20vh;
-      width: 90vw;
-      justify-content: center; }
-      .sectionmediosdepago section div img {
-        display: none; }
-      .sectionmediosdepago section div h4 {
-        font-size: 1rem; }
-      .sectionmediosdepago section div p {
-        width: 90vw; }
+  .sectionmediosdepago {
+    min-height: 75vh; }
+    .sectionmediosdepago h1 {
+      font-size: 1rem;
+      padding-top: 1vh; }
+    .sectionmediosdepago section {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+      margin-top: 1vh;
+      row-gap: 1vh; }
+      .sectionmediosdepago section div {
+        height: 20.5vh;
+        width: 90vw;
+        justify-content: center; }
+        .sectionmediosdepago section div img {
+          display: none; }
+        .sectionmediosdepago section div h4 {
+          font-size: 1rem; }
+        .sectionmediosdepago section div p {
+          font-size: 1rem;
+          width: 90vw; }
   /* CLASES SERVICIOS */
   .sectionservicios h1 {
     font-size: 1rem;

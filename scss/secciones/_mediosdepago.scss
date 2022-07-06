@@ -1,14 +1,14 @@
 .sectionmediosdepago {
     background-image: url(../img/fondomedios.jpg);
-    height: 73vh;
+    min-height: 85vh;
 
     h1 {
-        @include estilotexto(1.5rem, center, bold);
+        @include estilotexto(2rem, center, bold);
         color: black;
         text-decoration: underline;
         text-decoration-color: red;
         text-decoration-thickness: 3px;
-        text-underline-offset: 2px;
+        text-underline-offset: 4px;
         padding-top: 4vh;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
@@ -21,7 +21,7 @@
         justify-content: space-around;
         align-items: center;
         position: relative;
-        margin-top: 10vh;
+        margin-top: 15vh;
 
         div {
             @include estiloscard(grey, black, black, 4px, solid, 40px);
@@ -31,7 +31,7 @@
             justify-content: space-around;
             align-items: center;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            height: 50vh;
+            height: 40vh;
             width: 20vw;
             transition: all 0.25s;
             text-align: center;
@@ -52,6 +52,7 @@
             }
 
             p {
+                font-size: 1.5rem;
                 width: 18vw;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             }
