@@ -373,90 +373,99 @@ input.form-control {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 .sectioncontacto {
+  min-height: 85vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-evenly;
-  background-color: black;
-  height: 73vh; }
-  .sectioncontacto div form {
+  background-color: black; }
+  .sectioncontacto .divform {
+    background-color: black;
+    border-color: red;
     color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 52vh;
+    width: 20vw; }
+    .sectioncontacto .divform form {
+      padding-top: 3vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      row-gap: 0.7vh;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+      .sectioncontacto .divform form h1 {
+        font-size: large;
+        text-align: 0;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 2px;
+        text-decoration-color: red; }
+      .sectioncontacto .divform form input {
+        background-color: 0;
+        border-color: red;
+        color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 5px; }
+        .sectioncontacto .divform form input:focus:not(input[type="checkbox"]) {
+          outline-style: solid;
+          outline-color: red;
+          outline-width: 2px; }
+      .sectioncontacto .divform form textarea {
+        border-radius: 5px;
+        border-width: 2px;
+        border-color: red; }
+        .sectioncontacto .divform form textarea:focus {
+          outline-style: solid;
+          outline-color: red;
+          outline-width: 2px; }
+  .sectioncontacto .buttonform {
+    font-size: 0.8rem;
+    height: 25px;
+    width: 50px;
+    border-radius: 5px;
+    border-color: red;
+    transition: height 0.2s, width 0.2s;
+    font-family: Arial, Helvetica, sans-serif; }
+    .sectioncontacto .buttonform:hover {
+      height: 28px;
+      width: 53px;
+      background-color: red;
+      color: white; }
+  .sectioncontacto .infocontacto {
     display: flex;
+    width: 30vw;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-    position: relative;
-    margin-top: 1vh;
-    row-gap: 0.5vh;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
-    .sectioncontacto div form h1 {
-      font-size: large;
-      text-align: 0;
-      font-weight: bold;
-      font-family: 'Times New Roman', Times, serif;
+    row-gap: 2vh; }
+    .sectioncontacto .infocontacto p {
+      color: white;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 1.1rem;
+      width: 20vw; }
+    .sectioncontacto .infocontacto h6 {
+      color: white;
+      text-align: center;
       text-decoration: underline;
-      text-decoration-thickness: 2px;
+      text-decoration-color: red;
       text-underline-offset: 2px;
-      text-decoration-color: red; }
-    .sectioncontacto div form input {
-      background-color: 0;
-      border-color: red;
-      color: black;
-      border-width: 2px;
-      border-style: solid;
-      border-radius: 5px; }
-      .sectioncontacto div form input:focus:not(input[type="checkbox"]) {
-        outline-style: solid;
-        outline-color: red;
-        outline-width: 2px; }
-    .sectioncontacto div form textarea {
-      border-radius: 5px;
-      border-width: 2px;
-      border-color: red; }
-      .sectioncontacto div form textarea:focus {
-        outline-style: solid;
-        outline-color: red;
-        outline-width: 2px; }
-
-.buttonform {
-  font-size: 0.8rem;
-  height: 25px;
-  width: 50px;
-  border-radius: 5px;
-  border-color: red;
-  transition: height 0.2s, width 0.2s;
-  font-family: Arial, Helvetica, sans-serif; }
-  .buttonform:hover {
-    height: 28px;
-    width: 53px;
-    background-color: red;
-    color: white; }
-
-.infocontacto {
-  display: flex;
-  width: 30%;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  row-gap: 1vh; }
-  .infocontacto p {
-    color: white;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.1rem; }
-  .infocontacto h6 {
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-color: red;
-    text-underline-offset: 2px;
-    text-decoration-thickness: 3px; }
-  .infocontacto iframe {
-    border-radius: 20px; }
+      text-decoration-thickness: 3px; }
+    .sectioncontacto .infocontacto iframe {
+      border-radius: 20px; }
 
 .sectionservicios {
   min-height: 85vh; }
@@ -582,63 +591,81 @@ input.form-control {
           padding-bottom: 1vh; }
   /* CLASES CONTACTO */
   .sectioncontacto {
-    align-content: flex-start; }
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    /* CLASES MEDIOS DE PAGO */
+    /* CLASES SERVICIOS */ }
     .sectioncontacto .infocontacto {
-      display: none; }
-    .sectioncontacto div form {
-      font-size: medium;
-      row-gap: 0vh;
-      margin-top: 0vh; }
-      .sectioncontacto div form h1 {
+      width: 80vw;
+      row-gap: 0vh; }
+      .sectioncontacto .infocontacto p {
+        width: 80vw;
+        font-size: 0.95rem; }
+      .sectioncontacto .infocontacto h6 {
+        font-size: 1rem; }
+      .sectioncontacto .infocontacto iframe {
         display: none; }
-      .sectioncontacto div form div {
-        margin-top: 0.5vh; }
-  /* CLASES MEDIOS DE PAGO */
-  .sectionmediosdepago {
-    min-height: 75vh; }
-    .sectionmediosdepago h1 {
+    .sectioncontacto .divform {
+      margin-top: 1vh;
+      height: 66vh;
+      width: 70vw; }
+      .sectioncontacto .divform form {
+        padding-top: 0.5vh;
+        font-size: small;
+        row-gap: 0.5vh; }
+        .sectioncontacto .divform form h1 {
+          display: none; }
+        .sectioncontacto .divform form div {
+          margin-top: 0.5vh; }
+    .sectioncontacto .sectionmediosdepago {
+      min-height: 75vh; }
+      .sectioncontacto .sectionmediosdepago h1 {
+        font-size: 1rem;
+        padding-top: 1vh; }
+      .sectioncontacto .sectionmediosdepago section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        margin-top: 1vh;
+        row-gap: 1vh; }
+        .sectioncontacto .sectionmediosdepago section div {
+          height: 20.5vh;
+          width: 90vw;
+          justify-content: center; }
+          .sectioncontacto .sectionmediosdepago section div img {
+            display: none; }
+          .sectioncontacto .sectionmediosdepago section div h4 {
+            font-size: 1rem; }
+          .sectioncontacto .sectionmediosdepago section div p {
+            font-size: 1rem;
+            width: 90vw; }
+    .sectioncontacto .sectionservicios h1 {
       font-size: 1rem;
-      padding-top: 1vh; }
-    .sectionmediosdepago section {
+      padding-top: 1vh;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-decoration-color: red;
+      text-underline-offset: 2px; }
+    .sectioncontacto .sectionservicios section {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       align-content: center;
       justify-content: space-around;
       align-items: center;
-      position: relative;
-      margin-top: 1vh;
-      row-gap: 1vh; }
-      .sectionmediosdepago section div {
-        height: 20.5vh;
-        width: 90vw;
-        justify-content: center; }
-        .sectionmediosdepago section div img {
-          display: none; }
-        .sectionmediosdepago section div h4 {
-          font-size: 1rem; }
-        .sectionmediosdepago section div p {
-          font-size: 1rem;
-          width: 90vw; }
-  /* CLASES SERVICIOS */
-  .sectionservicios h1 {
-    font-size: 1rem;
-    padding-top: 1vh;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-color: red;
-    text-underline-offset: 2px; }
-  .sectionservicios section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
-    row-gap: 5vh;
-    margin-bottom: 12vh; }
-    .sectionservicios section div h5 {
-      font-size: medium;
-      width: 30vw; }
-    .sectionservicios section div img {
-      width: 50vw; } }
+      row-gap: 5vh;
+      margin-bottom: 12vh; }
+      .sectioncontacto .sectionservicios section div h5 {
+        font-size: medium;
+        width: 30vw; }
+      .sectioncontacto .sectionservicios section div img {
+        width: 50vw; } }
