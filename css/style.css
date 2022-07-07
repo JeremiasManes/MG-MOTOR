@@ -458,47 +458,48 @@ input.form-control {
   .infocontacto iframe {
     border-radius: 20px; }
 
-.sectionservicios h1 {
-  font-size: x-large;
-  text-align: center;
-  font-weight: bold;
-  padding-top: 2vh;
-  color: black;
-  text-decoration: overline underline;
-  text-decoration-thickness: 3px;
-  text-decoration-color: red;
-  text-underline-offset: 5px; }
-
-.sectionservicios section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 8vh; }
-  .sectionservicios section div {
-    row-gap: 3vh; }
-    .sectionservicios section div h5 {
-      font-size: 1.2rem;
-      text-align: center;
-      font-weight: bold;
-      background-color: red;
-      border-color: black;
-      color: black;
-      border-width: 2px;
-      border-style: solid;
-      border-radius: 10px;
-      width: 10vw; }
-    .sectionservicios section div img {
-      border-color: black;
-      border-radius: 10px;
-      border-style: solid;
-      width: 16vw;
-      height: 30vh; }
-      .sectionservicios section div img:hover {
-        border-color: red;
-        border-radius: 20px; }
+.sectionservicios {
+  min-height: 85vh; }
+  .sectionservicios h1 {
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4vh;
+    color: black;
+    text-decoration: overline underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: red;
+    text-underline-offset: 5px; }
+  .sectionservicios section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15vh; }
+    .sectionservicios section div {
+      row-gap: 3vh; }
+      .sectionservicios section div h5 {
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: bold;
+        background-color: red;
+        border-color: black;
+        color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        width: 10vw; }
+      .sectionservicios section div img {
+        border-color: black;
+        border-radius: 10px;
+        border-style: solid;
+        width: 20vw;
+        height: 30vh; }
+        .sectionservicios section div img:hover {
+          border-color: red;
+          border-radius: 20px; }
 
 /* RESPONSIVE DESIGN- MEDIA QUERY- MOBILES LAST */
 @media (max-width: 375px) {

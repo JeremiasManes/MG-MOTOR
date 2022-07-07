@@ -1,7 +1,9 @@
 .sectionservicios {
+    min-height: 85vh;
+
     h1 {
         @include estilotexto(x-large, center, bold);
-        padding-top: 2vh;
+        padding-top: 4vh;
         color: black;
         text-decoration: overline underline;
         text-decoration-thickness: 3px;
@@ -16,7 +18,7 @@
         align-content: space-between;
         justify-content: space-around;
         align-items: center;
-        margin-top: 8vh;
+        margin-top: 15vh;
 
         div {
             @extend %flexColumn;
@@ -32,7 +34,7 @@
                 border-color: black;
                 border-radius: 10px;
                 border-style: solid;
-                width: 16vw;
+                width: 20vw;
                 height: 30vh;
 
                 &:hover {
