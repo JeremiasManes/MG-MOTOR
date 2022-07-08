@@ -597,9 +597,7 @@ input.form-control {
     flex-wrap: wrap;
     align-content: center;
     justify-content: flex-start;
-    align-items: center;
-    /* CLASES MEDIOS DE PAGO */
-    /* CLASES SERVICIOS */ }
+    align-items: center; }
     .sectioncontacto .infocontacto {
       width: 80vw;
       row-gap: 0vh; }
@@ -622,50 +620,52 @@ input.form-control {
           display: none; }
         .sectioncontacto .divform form div {
           margin-top: 0.5vh; }
-    .sectioncontacto .sectionmediosdepago {
-      min-height: 75vh; }
-      .sectioncontacto .sectionmediosdepago h1 {
-        font-size: 1rem;
-        padding-top: 1vh; }
-      .sectioncontacto .sectionmediosdepago section {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: space-around;
-        align-items: center;
-        position: relative;
-        margin-top: 1vh;
-        row-gap: 1vh; }
-        .sectioncontacto .sectionmediosdepago section div {
-          height: 20.5vh;
-          width: 90vw;
-          justify-content: center; }
-          .sectioncontacto .sectionmediosdepago section div img {
-            display: none; }
-          .sectioncontacto .sectionmediosdepago section div h4 {
-            font-size: 1rem; }
-          .sectioncontacto .sectionmediosdepago section div p {
-            font-size: 1rem;
-            width: 90vw; }
-    .sectioncontacto .sectionservicios h1 {
+  /* CLASES MEDIOS DE PAGO */
+  .sectionmediosdepago {
+    min-height: 75vh; }
+    .sectionmediosdepago h1 {
       font-size: 1rem;
-      padding-top: 1vh;
-      text-decoration: underline;
-      text-decoration-thickness: 2px;
-      text-decoration-color: red;
-      text-underline-offset: 2px; }
-    .sectioncontacto .sectionservicios section {
+      padding-top: 1vh; }
+    .sectionmediosdepago section {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       align-content: center;
       justify-content: space-around;
       align-items: center;
-      row-gap: 5vh;
-      margin-bottom: 12vh; }
-      .sectioncontacto .sectionservicios section div h5 {
-        font-size: medium;
-        width: 30vw; }
-      .sectioncontacto .sectionservicios section div img {
-        width: 50vw; } }
+      position: relative;
+      margin-top: 1vh;
+      row-gap: 1vh; }
+      .sectionmediosdepago section div {
+        height: 20.5vh;
+        width: 90vw;
+        justify-content: center; }
+        .sectionmediosdepago section div img {
+          display: none; }
+        .sectionmediosdepago section div h4 {
+          font-size: 1rem; }
+        .sectionmediosdepago section div p {
+          font-size: 1rem;
+          width: 90vw; }
+  /* CLASES SERVICIOS */
+  .sectionservicios h1 {
+    font-size: 1rem;
+    padding-top: 1vh;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: red;
+    text-underline-offset: 2px; }
+  .sectionservicios section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 5vh;
+    margin-bottom: 12vh; }
+    .sectionservicios section div h5 {
+      font-size: medium;
+      width: 30vw; }
+    .sectionservicios section div img {
+      width: 50vw; } }
