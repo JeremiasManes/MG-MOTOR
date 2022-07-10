@@ -104,8 +104,7 @@
 
     /* CLASES PRODUCTOS */
     .sectionproductos {
-        height: auto;
-        background-repeat: repeat;
+        min-height: 75vh;
         margin-bottom: 10vh;
 
         h1 {
@@ -120,28 +119,67 @@
             justify-content: space-around;
             align-items: center;
             row-gap: 2vh;
-            padding-top: 0vh;
+            padding-top: 4vh;
 
             div {
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
                 align-content: center;
-                justify-content: center;
+                justify-content: space-around;
                 align-items: center;
-                height: 34vh;
-                width: 50vw;
-
-                h5 {
-                    font-size: 1rem;
-                }
+                row-gap: 2vh;
+                height: 50vh;
+                width: 70vw;
 
                 ul {
+                    font-size: 1.5rem;
 
                     li {
                         padding-top: 0vh;
                         padding-bottom: 1vh;
                     }
+                }
+            }
+        }
+    }
+
+    /* CLASES MEDIOS DE PAGO */
+    .sectionmediosdepago {
+        min-height: 75vh;
+
+        h1 {
+            font-size: 1rem;
+            padding-top: 1vh;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            margin-top: 1vh;
+            row-gap: 1vh;
+
+            div {
+                height: 20.5vh;
+                width: 90vw;
+                justify-content: center;
+
+                img {
+                    display: none;
+                }
+
+                h4 {
+                    font-size: 1rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                    width: 90vw;
                 }
             }
         }
@@ -191,47 +229,6 @@
 
                 div {
                     margin-top: 0.5vh;
-                }
-            }
-        }
-    }
-
-    /* CLASES MEDIOS DE PAGO */
-    .sectionmediosdepago {
-        min-height: 75vh;
-
-        h1 {
-            font-size: 1rem;
-            padding-top: 1vh;
-        }
-
-        section {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-content: center;
-            justify-content: space-around;
-            align-items: center;
-            position: relative;
-            margin-top: 1vh;
-            row-gap: 1vh;
-
-            div {
-                height: 20.5vh;
-                width: 90vw;
-                justify-content: center;
-
-                img {
-                    display: none;
-                }
-
-                h4 {
-                    font-size: 1rem;
-                }
-
-                p {
-                    font-size: 1rem;
-                    width: 90vw;
                 }
             }
         }
