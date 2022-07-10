@@ -666,7 +666,8 @@ input.form-control {
     justify-content: space-around;
     align-items: center;
     row-gap: 5vh;
-    margin-bottom: 12vh; }
+    margin-bottom: 12vh;
+    margin-top: 5vh; }
     .sectionservicios section div h5 {
       font-size: medium;
       width: 30vw; }
