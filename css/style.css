@@ -672,4 +672,4 @@ input.form-control {
       font-size: medium;
       width: 30vw; }
     .sectionservicios section div img {
-      width: 50vw; } }
+      min-width: 50vw; } }
